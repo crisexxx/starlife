@@ -1,41 +1,80 @@
-# Prerequisites
-*.d
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Star Life - Início</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+    header {
+      background: linear-gradient(90deg, red, yellow, green);
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 32px;
+    }
 
-# Precompiled Headers
-*.gch
-*.pch
+    nav {
+      background-color: #000;
+      padding: 10px;
+      text-align: center;
+    }
 
-# Linker files
-*.ilk
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
 
-# Debugger Files
-*.pdb
+    section {
+      padding: 30px;
+    }
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+    .highlight {
+      background-color: #fef6e4;
+      border-left: 5px solid #ffc107;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
 
-# Fortran module files
-*.mod
-*.smod
+  <header>
+    Star Life - Sua central de jogos online
+  </header>
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="produtos.html">Jogos</a>
+    <a href="pagamento.html">Pagamento</a>
+  </nav>
 
-# Executables
-*.exe
-*.out
-*.app
+  <section>
+    <h2>🎮 Novos Lançamentos</h2>
+    
+    <div class="highlight">
+      <h3>Cyber Game X - Chega em agosto!</h3>
+      <p>Prepare-se para uma nova geração de batalhas com gráficos ultra-realistas e multiplayer em tempo real.</p>
+    </div>
 
-# debug information files
-*.dwo
+    <div class="highlight">
+      <h3>Dragon Fight 7</h3>
+      <p>O retorno da franquia lendária com novos personagens e modo online!</p>
+    </div>
+
+    <div class="highlight">
+      <h3>Racing Boom 3</h3>
+      <p>Corridas insanas com gráficos 4K e personalização total dos carros!</p>
+    </div>
+  </section>
+
+</body>
+</html>
